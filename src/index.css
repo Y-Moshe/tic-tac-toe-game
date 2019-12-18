@@ -35,10 +35,15 @@ ol, ul {
 
 .square:hover {
   cursor: pointer;
+  border: 2px solid cornflowerblue;
 }
 
 .square:focus {
   outline: none;
+}
+
+.square-won {
+  border: 2px dotted rgb(0, 192, 0);
 }
 
 .kbd-navigation .square:focus {
